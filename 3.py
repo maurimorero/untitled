@@ -1,4 +1,6 @@
-def solution(S):
+def NumMasPopular(S, cantidad):
+    if len(S)>5000: # si el array tiene mas de 5000 elementos, devuelvo 0
+        return 0
     cantidades= []
     for val in S:
         cantidades.append(S.count(val)) # mete todos las cantidades de cada elemento a un array
@@ -12,4 +14,4 @@ def solution(S):
 
     return min(valores) # retorna el menor
 
-print(solution([1,1,2,2,3,4,77,9,55]))
+print(NumMasPopular([1,1,2,2,2,3,4,77,77,77,77,9,55],13))
