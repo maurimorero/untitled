@@ -1,6 +1,6 @@
 def solution(N):
     binario = bin(N)[2:]
-    #print (str(binario))
+    print (str(binario))
     cantidad=0
     gap=0
     gaps=[]
