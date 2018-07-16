@@ -23,3 +23,10 @@ def solution1 (A):
     return count
 
 print (solution1([2,1,1,2,3,1,4,5,5,5,5,5,5,5,6,97988,0]))
+
+#Write a function
+#def solution(A)
+#that, given an array A consisting of N integers, returns the number of distinct values in array A.
+#Assume that:
+#N is an integer within the range [0..100,000];
+#each element of array A is an integer within the range [−1,000,000..1,000,000].

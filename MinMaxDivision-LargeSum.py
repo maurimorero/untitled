@@ -33,3 +33,9 @@ def binarySearch(A, max_block_cnt, using_M_will_give_you_wrong_results):
 
 def solution(K, M, A):
     return binarySearch(A, K, M)
+
+#You are given integers K, M and a non-empty array A consisting of N integers. Every element of the array is not greater than M.
+#You should divide this array into K blocks of consecutive elements. The size of the block is any integer between 0 and N. Every
+# element of the array should belong to some block.
+#The sum of the block from X to Y equals A[X] + A[X + 1] + ... + A[Y]. The sum of empty block equals 0.
+#The large sum is the maximal sum of any block.
