@@ -1,7 +1,6 @@
 
 def solution(file_object):
     line = file_object.readline()
-    line = file_object.readline()
     while line:
         if line.strip().isnumeric():
             yield int(line.strip())
